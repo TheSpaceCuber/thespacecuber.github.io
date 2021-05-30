@@ -1,9 +1,7 @@
 # thespacecuber.github.io
 
-A portfolio website built from BootStrapMade's template.
+Check out my website [here](royceho.net).
 
-Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+This is my portfolio website built from BootStrapMade's template [here](https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/).
 
-Site Logo obtained from: Freepik - https://www.freepik.com/vectors/logo
+Site Logo obtained from [Freepik](https://www.freepik.com/vectors/logo). 
