@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Film &amp; TV &middot; Royce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #242424;
+      color: #f4f4f4;
+      font-family: "Instrument Sans", system-ui, sans-serif;
+    }
+
+    main {
+      padding: 12vh 11vw 8vh;
+      max-width: 52rem;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 2.8vw, 2.3rem);
+      font-weight: 500;
+      letter-spacing: -0.035em;
+      line-height: 1.1;
+    }
+
+    section + section {
+      margin-top: 2.4rem;
+    }
+
+    h2 {
+      font-size: 0.75rem;
+      font-weight: 500;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #8a8a8a;
+      padding-bottom: 0.6rem;
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #2f2f2f;
+    }
+
+    .list {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .list li {
+      font-size: clamp(1.05rem, 1.8vw, 1.2rem);
+      color: #e6e6e6;
+      line-height: 1.55;
+      letter-spacing: -0.005em;
+    }
+
+    footer {
+      margin-top: 3.5rem;
+    }
+
+    .back {
+      color: #8a8a8a;
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: -0.005em;
+      transition: color 0.15s ease;
+    }
+
+    .back:hover,
+    .back:focus-visible {
+      color: #f4f4f4;
+    }
+
+    @media (max-width: 520px) {
+      main { padding-left: 6vw; padding-right: 6vw; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Films &amp; TV shows I love</h1>
+
+    <section style="margin-top: 2.4rem;">
+      <h2>Feature films</h2>
+      <ul class="list">
+        <li>Interstellar</li>
+        <li>Inception</li>
+        <li>The Odyssey</li>
+        <li>Spider-Man: Across the Spider-Verse</li>
+        <li>Mission: Impossible</li>
+        <li>Everything Everywhere All at Once</li>
+        <li>Puss in Boots: The Last Wish</li>
+        <li>Jujutsu Kaisen 0</li>
+        <li>Glass Onion</li>
+        <li>Prisoners</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Series</h2>
+      <ul class="list">
+        <li>Westworld</li>
+        <li>Demon Slayer</li>
+        <li>The Good Place</li>
+        <li>Arcane</li>
+        <li>Andor</li>
+        <li>Loki</li>
+      </ul>
+    </section>
+
+    <footer>
+      <a href="index.html" class="back">&larr; Back to home</a>
+    </footer>
+  </main>
+</body>
+</html>

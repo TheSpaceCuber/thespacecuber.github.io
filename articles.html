@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Articles &middot; Royce</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      min-height: 100vh;
+      background: #242424;
+      color: #f4f4f4;
+      font-family: "Instrument Sans", system-ui, sans-serif;
+    }
+
+    main {
+      padding: 12vh 11vw 8vh;
+      max-width: 52rem;
+    }
+
+    h1 {
+      font-size: clamp(1.8rem, 2.8vw, 2.3rem);
+      font-weight: 500;
+      letter-spacing: -0.035em;
+      line-height: 1.1;
+    }
+
+    .articles {
+      list-style: none;
+      padding: 0;
+      margin-top: 2.4rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1.8rem;
+    }
+
+    .articles li {
+      padding-bottom: 1.8rem;
+      border-bottom: 1px solid #2f2f2f;
+    }
+
+    .articles li:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+
+    .articles a.title {
+      display: block;
+      color: #f4f4f4;
+      text-decoration: none;
+      font-size: clamp(1.1rem, 2vw, 1.3rem);
+      font-weight: 500;
+      line-height: 1.35;
+      letter-spacing: -0.015em;
+      transition: color 0.15s ease;
+    }
+
+    .articles a.title:hover,
+    .articles a.title:focus-visible {
+      color: #ffffff;
+    }
+
+    .articles a.title::after {
+      content: "\2009↗";
+      font-size: 0.85em;
+      font-weight: 400;
+      color: #8a8a8a;
+    }
+
+    .src {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #8a8a8a;
+      font-size: 0.78rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    footer {
+      margin-top: 3.5rem;
+    }
+
+    .back {
+      color: #8a8a8a;
+      text-decoration: none;
+      font-size: 0.95rem;
+      letter-spacing: -0.005em;
+      transition: color 0.15s ease;
+    }
+
+    .back:hover,
+    .back:focus-visible {
+      color: #f4f4f4;
+    }
+
+    @media (max-width: 520px) {
+      main { padding-left: 6vw; padding-right: 6vw; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Articles that pique my interest</h1>
+
+    <ul class="articles">
+      <li>
+        <a
+          class="title"
+          href="https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          An Organizational Second Brain: Building an AI That Learns From Experts
+        </a>
+        <span class="src">Meta Engineering</span>
+      </li>
+      <li>
+        <a
+          class="title"
+          href="https://blog.palantir.com/ontology-finding-meaning-in-data-palantir-rfx-blog-series-1-399bd1a5971b"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Ontology: Finding meaning in data
+        </a>
+        <span class="src">Palantir Blog</span>
+      </li>
+    </ul>
+
+    <footer>
+      <a href="index.html" class="back">&larr; Back to home</a>
+    </footer>
+  </main>
+</body>
+</html>
